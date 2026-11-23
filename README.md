@@ -2,6 +2,8 @@
 
 Accessibility-focused indoor and outdoor mapping and navigation SDK for iOS, built on MapLibre.
 
+**Documentation:** [docs.mapvx.app/sdk-ios](https://docs.mapvx.app/sdk-ios/): getting started and the full API reference.
+
 > This repository is the **public binary distribution** of the MapVX iOS SDK.
 > The SDK's source code is proprietary and is not published. Each
 > [GitHub Release](https://github.com/MapVX/sdk-ios/releases) carries the
