@@ -52,7 +52,7 @@ let package = Package(
         .binaryTarget(
             name: "MVXSDKMapsBinary",
             url: "https://github.com/MapVX/sdk-ios/releases/download/1.0.0/MVXSDKMaps.xcframework.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000"
+            checksum: "ebc490a8435e688a53d74c722ca6d32cdc3aafa6dfe790879a0b80c6b2fcd958"
         ),
         // To try a local build instead, put MVXSDKMaps.xcframework (or its zip)
         // next to this file and replace the target above with:
