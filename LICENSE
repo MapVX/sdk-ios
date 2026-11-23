@@ -1,9 +1,7 @@
 Copyright (c) 2026 MapVX. All rights reserved.
 
-The MVXSDKMaps binary distributed through this repository and its releases is
-proprietary software of MapVX. Its use is subject to the Terms and Conditions
-for MapVX services: https://mapvx.com/terms
+The MapVX iOS SDK (MVXSDKMaps) is proprietary software distributed in binary form.
+Its use is subject to the MapVX Terms and Conditions: https://mapvx.com/terms-services/
 
-MapLibre Native, which Swift Package Manager resolves as a dependency, is
-distributed under its own license (BSD 2-Clause), and Filament, linked into the
-binary, under the Apache License 2.0.
+No license is granted to copy, modify, reverse engineer or redistribute this software
+except as expressly permitted by those terms.

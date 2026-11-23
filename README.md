@@ -57,4 +57,5 @@ The SDK needs a MapVX API key.
 
 ## License
 
-The MVXSDKMaps binary is proprietary. See [LICENSE](LICENSE).
+The MVXSDKMaps binary is proprietary. Its use is subject to the
+[MapVX Terms and Conditions](https://mapvx.com/terms-services/). See [LICENSE](LICENSE).
