@@ -51,8 +51,8 @@ let package = Package(
         // 1) The closed-source binary. A binary target takes no `dependencies:`.
         .binaryTarget(
             name: "MVXSDKMapsBinary",
-            url: "https://github.com/MapVX/sdk-ios/releases/download/1.2.0/MVXSDKMaps.xcframework.zip",
-            checksum: "a3b539e3093f53dd15fe6ad6ddf41e2afe680f3cc3c97bedd9ae35fe4fb2b382"
+            url: "https://github.com/MapVX/sdk-ios/releases/download/1.3.0/MVXSDKMaps.xcframework.zip",
+            checksum: "059e452dec305e53d7c6413554091b7b98c86d835064c2a90df8f32bcd284f9e"
         ),
         // To try a local build instead, put MVXSDKMaps.xcframework (or its zip)
         // next to this file and replace the target above with:

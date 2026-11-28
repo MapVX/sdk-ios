@@ -4,6 +4,19 @@ Versions of the MVXSDKMaps binary published in this repository. Each version is 
 [GitHub Release](https://github.com/MapVX/sdk-ios/releases) with
 `MVXSDKMaps.xcframework.zip` attached.
 
+## [1.3.0]
+
+- Marker names give way, as on the MapVX web SDK: a marker's icon always shows, and its
+  name moves to a free side (right, top, left, bottom) or hides when it would cover another
+  marker's icon or name. On by default; `setLabelPriority` puts a name first,
+  `setMarkerLayout` sets the padding and a zoom below which only icons show, or turns it off
+  (1.2's overlapping names). `setMarkerLabelsShownCallback` tells the app which markers show
+  their name.
+- `setTextMaxWidth`: a marker's name wraps at that width.
+- A marker image wider than tall sits on its coordinate (it was off to the side), a name
+  starts beside its icon (it began 35 pt in, over a wide badge), `setDraggable(true)` works,
+  and a marker updated in place shows its new look.
+
 ## [1.2.0]
 
 - Place data for a directory: a venue's categories (`PlaceDetail.categories`, read from
